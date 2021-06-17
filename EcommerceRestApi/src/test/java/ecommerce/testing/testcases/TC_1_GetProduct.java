@@ -32,6 +32,7 @@ public class TC_1_GetProduct {
 		Response responseGet=httpsMethods.GetRequest("GetProduct");
 		log.debug("Response captured for get request as Pretty string method:"+responseGet.asPrettyString());
 		ResponseValidations validateResponseGet=new ResponseValidations();
+		log.debug("capturing response");
 		validateResponseGet.responseValidations(responseGet);
 
 	}
