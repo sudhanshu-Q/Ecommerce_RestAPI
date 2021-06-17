@@ -21,6 +21,7 @@ public class ResponseValidations {
 		log.info("Getting status code: "+getResponse.getStatusCode());
 		log.info("Getting status line in response: "+getResponse.getStatusLine());
 		log.info("Getting response body: "+getResponse.getBody());
+		log.info("Response header :"+getResponse.getHeaders().asList());
 	}
 
 }
