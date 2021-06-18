@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3748" started-at="2021-06-17T15:03:38Z" finished-at="2021-06-17T15:03:42Z">
+  <suite name="Ecommerce Best Buy " duration-ms="4903" started-at="2021-06-18T08:03:48Z" finished-at="2021-06-18T08:03:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3748" started-at="2021-06-17T15:03:38Z" finished-at="2021-06-17T15:03:42Z">
-      <class name="ecommerce.testing.testcases.TC_1_GetProduct">
-        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@2c9f9fb0]" name="initiating_TC_1_GetProduct" duration-ms="3723" started-at="2021-06-17T20:33:38Z" finished-at="2021-06-17T20:33:42Z">
+    <test name="Test" duration-ms="4903" started-at="2021-06-18T08:03:48Z" finished-at="2021-06-18T08:03:53Z">
+      <class name="ecommerce.testing.testcases.TC_2_GetStores">
+        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2c9f9fb0]" name="initiating_TC_2_GetStore" duration-ms="4873" started-at="2021-06-18T13:33:48Z" finished-at="2021-06-18T13:33:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initiating_TC_1_GetProduct -->
-      </class> <!-- ecommerce.testing.testcases.TC_1_GetProduct -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- initiating_TC_2_GetStore -->
+      </class> <!-- ecommerce.testing.testcases.TC_2_GetStores -->
+    </test> <!-- Test -->
+  </suite> <!-- Ecommerce Best Buy  -->
 </testng-results>
