@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Ecommerce Best Buy ">
-  <test name="Test">
-    <classes>
-     <class name="ecommerce.testing.testcases.TC_2_GetStores"/>
-    <!--    <class name="ecommerce.testing.testcases.TC_1_GetProduct"/>-->
-    </classes>
-  </test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<class name="ecommerce.testing.testcases.TC_2_GetStores" />
+			<class name="ecommerce.testing.testcases.TC_1_GetProduct" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

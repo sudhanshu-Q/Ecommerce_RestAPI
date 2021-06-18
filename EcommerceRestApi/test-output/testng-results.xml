@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Starting TC_2_GetStores]]>
+    </line>
+    <line>
+      <![CDATA[Executed TC_2_GetStores successfully]]>
+    </line>
+    <line>
+      <![CDATA[Starting TC_1_GetProduct]]>
+    </line>
+    <line>
+      <![CDATA[Executed TC_2_GetStores successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Ecommerce Best Buy " duration-ms="4903" started-at="2021-06-18T08:03:48Z" finished-at="2021-06-18T08:03:53Z">
+  <suite name="Ecommerce Best Buy " duration-ms="47736" started-at="2021-06-18T15:09:35Z" finished-at="2021-06-18T15:10:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4903" started-at="2021-06-18T08:03:48Z" finished-at="2021-06-18T08:03:53Z">
-      <class name="ecommerce.testing.testcases.TC_2_GetStores">
-        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2c9f9fb0]" name="initiating_TC_2_GetStore" duration-ms="4873" started-at="2021-06-18T13:33:48Z" finished-at="2021-06-18T13:33:53Z">
+    <test name="Test" duration-ms="47736" started-at="2021-06-18T15:09:35Z" finished-at="2021-06-18T15:10:23Z">
+      <class name="ecommerce.testing.testcases.TC_1_GetProduct">
+        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@737996a0]" name="initiating_TC_1_GetProduct" duration-ms="31489" started-at="2021-06-18T20:39:52Z" finished-at="2021-06-18T20:40:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[Starting TC_1_GetProduct]]>
+            </line>
+            <line>
+              <![CDATA[Executed TC_2_GetStores successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initiating_TC_1_GetProduct -->
+      </class> <!-- ecommerce.testing.testcases.TC_1_GetProduct -->
+      <class name="ecommerce.testing.testcases.TC_2_GetStores">
+        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2096442d]" name="initiating_TC_2_GetStore" duration-ms="16156" started-at="2021-06-18T20:39:35Z" finished-at="2021-06-18T20:39:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting TC_2_GetStores]]>
+            </line>
+            <line>
+              <![CDATA[Executed TC_2_GetStores successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- initiating_TC_2_GetStore -->
       </class> <!-- ecommerce.testing.testcases.TC_2_GetStores -->

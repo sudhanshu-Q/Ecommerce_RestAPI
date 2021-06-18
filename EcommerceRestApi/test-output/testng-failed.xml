@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="ecommerce.testing.testcases.TC_2_GetStores"/>
+      <class name="ecommerce.testing.testcases.TC_1_GetProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Ecommerce Best Buy ] -->
