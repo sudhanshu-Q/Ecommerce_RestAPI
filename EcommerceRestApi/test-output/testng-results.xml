@@ -11,27 +11,27 @@
       <![CDATA[Starting TC_1_GetProduct]]>
     </line>
     <line>
-      <![CDATA[Executed TC_2_GetStores successfully]]>
+      <![CDATA[Executed TC_1_GetProduct successfully]]>
     </line>
   </reporter-output>
-  <suite name="Ecommerce Best Buy " duration-ms="47736" started-at="2021-06-18T15:09:35Z" finished-at="2021-06-18T15:10:23Z">
+  <suite name="Ecommerce Best Buy " duration-ms="7549" started-at="2021-06-18T15:42:44Z" finished-at="2021-06-18T15:42:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47736" started-at="2021-06-18T15:09:35Z" finished-at="2021-06-18T15:10:23Z">
+    <test name="Test" duration-ms="7549" started-at="2021-06-18T15:42:44Z" finished-at="2021-06-18T15:42:51Z">
       <class name="ecommerce.testing.testcases.TC_1_GetProduct">
-        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@737996a0]" name="initiating_TC_1_GetProduct" duration-ms="31489" started-at="2021-06-18T20:39:52Z" finished-at="2021-06-18T20:40:23Z">
+        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@737996a0]" name="initiating_TC_1_GetProduct" duration-ms="2996" started-at="2021-06-18T21:12:48Z" finished-at="2021-06-18T21:12:51Z">
           <reporter-output>
             <line>
               <![CDATA[Starting TC_1_GetProduct]]>
             </line>
             <line>
-              <![CDATA[Executed TC_2_GetStores successfully]]>
+              <![CDATA[Executed TC_1_GetProduct successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- initiating_TC_1_GetProduct -->
       </class> <!-- ecommerce.testing.testcases.TC_1_GetProduct -->
       <class name="ecommerce.testing.testcases.TC_2_GetStores">
-        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2096442d]" name="initiating_TC_2_GetStore" duration-ms="16156" started-at="2021-06-18T20:39:35Z" finished-at="2021-06-18T20:39:52Z">
+        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2096442d]" name="initiating_TC_2_GetStore" duration-ms="4528" started-at="2021-06-18T21:12:44Z" finished-at="2021-06-18T21:12:48Z">
           <reporter-output>
             <line>
               <![CDATA[Starting TC_2_GetStores]]>

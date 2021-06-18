@@ -36,7 +36,7 @@ public class TC_1_GetProduct {
 		ResponseValidations validateResponseGet=new ResponseValidations();
 		log.debug("capturing response");
 		validateResponseGet.responseValidations(responseGet);
-		Reporter.log("Executed TC_2_GetStores successfully");
+		Reporter.log("Executed TC_1_GetProduct successfully");
 	}
 
 
