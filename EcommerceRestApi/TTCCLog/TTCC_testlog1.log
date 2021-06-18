@@ -1261,3 +1261,266 @@
 2021-06-17 20:33:42,024 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting status code: 200
 2021-06-17 20:33:42,024 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting status line in response: HTTP/1.1 200 OK
 2021-06-17 20:33:42,024 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting response body: io.restassured.internal.RestAssuredResponseImpl@c5ee75e
+2021-06-17 21:34:01,177 [main] DEBUG ecommerce.testing.testcases.TC_1_GetProduct - Reading property file :{GetProduct=http://localhost:3030/products}
+2021-06-17 21:34:02,004 [main] DEBUG ecommerce.testing.testcases.TC_1_GetProduct - Requesting get http method request :ecommerce.testing.teststeps.HttpMethods@53b32d7
+2021-06-17 21:34:02,004 [main] DEBUG ecommerce.testing.teststeps.HttpMethods - GetRequest Http method
+2021-06-17 21:34:06,859 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://localhost:3030
+2021-06-17 21:34:07,182 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:3030
+2021-06-17 21:34:07,711 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+2021-06-17 21:34:07,748 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2021-06-17 21:34:07,748 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2021-06-17 21:34:07,748 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2021-06-17 21:34:07,753 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2021-06-17 21:34:07,758 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /products HTTP/1.1
+2021-06-17 21:34:07,779 [main] DEBUG org.apache.http.wire -  >> "GET /products HTTP/1.1[\r][\n]"
+2021-06-17 21:34:07,794 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2021-06-17 21:34:07,794 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+2021-06-17 21:34:07,794 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:3030[\r][\n]"
+2021-06-17 21:34:07,794 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2021-06-17 21:34:07,794 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_201)[\r][\n]"
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.headers - >> GET /products HTTP/1.1
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.headers - >> Accept: */*
+2021-06-17 21:34:07,799 [main] DEBUG org.apache.http.headers - >> Host: localhost:3030
+2021-06-17 21:34:07,804 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2021-06-17 21:34:07,804 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_201)
+2021-06-17 21:34:07,804 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+2021-06-17 21:34:43,638 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Allow: GET,POST,PUT,PATCH,DELETE[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Vary: Accept, Accept-Encoding[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "ETag: W/"175b-ahK67GuMia7YzxPW6JneHQxymiA"[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Date: Thu, 17 Jun 2021 16:04:43 GMT[\r][\n]"
+2021-06-17 21:34:43,645 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=5[\r][\n]"
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+2021-06-17 21:34:43,650 [main] DEBUG org.apache.http.headers - << Allow: GET,POST,PUT,PATCH,DELETE
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Vary: Accept, Accept-Encoding
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << ETag: W/"175b-ahK67GuMia7YzxPW6JneHQxymiA"
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Date: Thu, 17 Jun 2021 16:04:43 GMT
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Keep-Alive: timeout=5
+2021-06-17 21:34:43,655 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2021-06-17 21:34:43,695 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 5000 MILLISECONDS
+2021-06-17 21:34:43,742 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2021-06-17 21:34:43,752 [main] DEBUG org.apache.http.wire -  << "a[\r][\n]"
+2021-06-17 21:34:43,752 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][\n]"
+2021-06-17 21:34:43,762 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2021-06-17 21:34:43,762 [main] DEBUG org.apache.http.wire -  << "5b0[\r][\n]"
+2021-06-17 21:34:43,762 [main] DEBUG org.apache.http.wire -  << "[0xbd][0x98]m[0x8f][0xda]8[0x10][0x80][0xff][0x8a][0x95][0xf]U+[0xad]![0xce][0x1b][0x9][0xa8]:[0x1][0xdb][0xbb][0xab]Zzhw[0xfb][0xa2][0xbb][0xab]*[0x93]x[0xc1]G[0x12]G[0xb6][0xb3][0x94][0xab][0xfa][0xdf]o[0x9c][0x4]6[0xbb]K[0xb7][0xd0][0xa3]|![0xc1]vf[0xc6]3[0x8f]g&[0xf9]bi[0xa1]ij[0xf5]}[0x12][0xf9][0xbd]3+[0xe5][0x19][0xd7]V[0x9f][0xd8]g[0x96]Z[0xf2][0xc2][0xea][0xc3]MB5[0xb5][0xfa]}[0xb1]xb[0xf5]=7[0xb2]a,[0xa7][0x19][0xb3][0xfa][0xd6]y)i[0xcc][0xd2][0x14]a4[0x1c][0xe][0xd1][0x88]j[0xcd]$g[\n]"
+2021-06-17 21:34:43,767 [main] DEBUG org.apache.http.wire -  << "=[0xf5][0xf0][0x94][0xc6][0xcb]g[0xd6][0x99][0xa5][0xd7][0x85]Y[0xfa];[0x95][0xc9]oB$0RH[0x1e][0xc3][0x90][0xdf][0xf1][0xa2]3[0xab],b[0x98][0xb5]=[0xe2][0xba][0xae][0xe7]x6[0x89]`[0x85]Z[0xf0][0xa2][0xe0][0xf9][0xbc][0xd6][0xcf]T,y[0xa1][0xb9][0xc8]a[0xe5]Xd[0x5][0xd5]|[0x96]2[0xb4][0xe2]z[0x81][0x14]KY[0xac]Q[0xf5]+E[0xce]c[0x94][0xb0][0x1b][0x90][0xaf][0x6][0x95]I[0x8a][0xff][0xcb][0x6][0xe8][0xfc][0xed][0xc5][0xf0][0xf5][0x1f][0xe3]Wh*VL[0xa2][0xa9]d[0x8a][0xc9][0x1b][0x86]4[0x8b][0x17][0xb9]H[0xc5]|=@[0x1e].[0xc0]bP[0x9e][0xd1][0xbc][0xbc][0xa6][0xb1].%[0x93][0xad]=[0x9a][0x19][0x91]0[0xf0][0x95]5y[0x3][0x86][0xda]#[0xef]O[0x18]+[0xa5][0x19]Yh][0xf4][0xbb][0xdd][0xd5]j[0xd5][0x99]1[0xa5]g[0xe5][0xba][0x13][0x8b][0xac][0xab][0xb8]f[0xdd][0xa4][0x11][0x80])[0xa5]x[0xb6]q[0x11][0xae][0xf5]u+[0x87]v[0x8a]_x[0xf2][0x9c][0xd8]>qC[0xcf][0xee]y[0xc4][0xf3][0x9f][0xa8]e[0xf9]2y^M?[0x89][0xb3][0xe2][0xf9][0xc5][0xe4][0xc3]x[0xc][\n]"
+2021-06-17 21:34:43,767 [main] DEBUG org.apache.http.wire -  << "yF[0xe7][0xec]V%[0xcf][0xe6][0x9d][0xd9]l[0xad]48%[0xae][0x94][0x8e][0xc0][0x80]Q[0xb9][0xfe][0xf4][0xf6][0xb2][[0xad]U[0xdd]B[0x8a][0xa4][0x8c][0xb5][0xaa][0x94][0xd5][0x1a]?)[0xda][0xf9][0xa7][0x98][0x83][0xbc]X2[0xaa]Y2[0x84][0xb0][[0x8e]M[0x2]L[0x8]&[0xbd]+[0xd2][0xeb][0xfb]a[0xdf]v;N[0x14]V[0xfb],[0x92]}[0x96][0xc5][0xb0]h.[0xcc][0x6][0x1][0x99][0x8f]_[0xcf][0x1a]jB[0xdf][0xfd][0x6]5[0x88]t[0xfc]wh,[0x8a][0x82][0xc9]+Q[0xfc][0x86][0x88]o[0x93][0xde][0xe3][0xc][0xbd][0x16][0xf9][0x1c][0xa7]Ti[0x98]F,g[0xd2][0xc4][0x1f]F[0xae][0x85]DZ[0xac][0xd5][0x19][0x8a]S[0x11]/[0xe1]*i[0xc2][0x5]\[0xe7][0xb0]5[0xf3][0x97]eB[0x9b][0x9b][0xe9][0xf9]P![0x9a]'([0x13][0x92][0xed][0x9][0x15]X[0xfe]#Pa[0x82][0xfd][0x1b][0x1c]W[0x1e][0xd4][0xa2][0xd8][0x81][0x98][0xf1][0xfe][0x6][0xb1](rC[0xdf][0x9][0xc2]([0xc]7[0x88][0x99][0xe9][0xe3]![0x6][0xd2]j[0x8d][0xa7]E[0x8c]8[0xbd] [0xec]}[0x83][0xb1][0x16]T[0xe1][0xf7][0xa1][0xea]=[0x80]*t[0x0]*[0xef][0x88][0x89][0xe9][0x80][0xbc][0x14][0x1e][0x92][0x97]*[0x84][0xc2][0xc3][0x11][0xba]e[0xa6]V[0xd7][0xad][0xdd]y7/y~[0xd0][0xb][0x1a]h[0xea][0xf9][0xa3]Qc[0xc4]5:O[0x8c][\r][0x4][0x96][0xf8][l^[0x98]d[0x0][0xa1][0x91][0xc0][0xcd]d[0xf8][0xa1][0x5][0xe][0xc4]l[0x9f][0x84][0xe4]u[0xa2][v[0xdc]([0xb4]m[0x90][0xef]:[0xdf])j[0xf5]A5:h[0xba][0xa4])[0xcf][0x19][0xda]Fd[0xd0][0xdc][0xae][0x81][\n]"
+2021-06-17 21:34:43,767 [main] DEBUG org.apache.http.wire -  << "[0x5]W[0xc4][0xf3]8-[0x13][0x96]<Dbk}[0x8b][0x89][0x17][0x11][0x19]M[0xb1][0xb7][0x17][0x11]l[0xf3]<[0xce][0xe8][0xe7][0x16][0x13][0x0]H[0x93]Jjw[0xdd][0xc3]"pHo[0x83]E5<,@\[0xa3][0xf3][0xc4]X@[0x8e][0xdc]][0xb1][0xc6][0x7]V[0xa8][0xb0][\r]D][0xa1][0xa0]w8b[0x97]3[0xfe]Y=[0xe][0x1];/[0xe]-G[0xf1][0xc3][0xf2]S[0xfb][0xf2]>3^[0xb8]M%[0xd5][0xfc][0xf1][0x98][0x1]q[0x8d][0xce][0xd3]3[0x13][0xec][0xac]@[0xe7][0x7]2[0x13]=d[0xc6][0x5]f[0xec][0xa3]1s[0xfe][0xd3][0x98]q[0x80][0x99]d73[0xc1][0xfd][0xf2][0x13][0xf8]>i1[0x13][0x1c][0xb1][0xfc]l[0x98][0x9]N\~\;[0xb2][0x3]g[0xcb][0xcc][0x14]"[0xc9][0xaa][0xe2][0xe3][0xfd]m![0x17][0xbf][0xa7]ktYJ[0xf0]:[0xc3][0x13]Q[0xe6][0x1a]][0x16][0x8c].[0x99]Tu[0x88]_N[0xa6]Sd[0xe2].[0x8c]G[0xe1].7[0x84]M)[0x97][0xcf]@[0xc6]([0xad][0x3][0xf7]M[0xce][0x88]w[0xa7]\[0x11][0xc7][0x87]T[0x1e][0xf8][0xc4]#[0x8f][0x93][0x16][0xda][0xef][0x11]T[0x8][0x9e][0x95][0x19]**r[0x9e]:0t1[0xb9]|6[0xa8],[0xaf][0xec][0x8a][0xb7]v[0xc5]`[0x17]Z[0x9]q[0xcd][0xe4][0x0]Aw[0x8]+[0x16]B[0xe6]H[0xaf][0x18][0xd3]u[0xb5][0xba][0xcb]V[0xe3][0x87][0x16]ZW[0x97][0xf8][0x83]c[0xdb]{[0x81]U[0xd4]O[0x3]K.^[0xd1]5V[0x8d][0x7]3[0xe3]A[0xac][0x1a][0xf]b[0xe3]A[0xcc][0xb3][0xa2][0xc0][K[0xb1][0xb1]T[0x1][0x82]\[0xe2][0x99][0xf1]^[0xb7][0xe]P[0x3][0xa2]C[0xc2][0xc0]s[0xe1][0xdd][0xcf][0xf1]7[0xcd]s=4[0x10]m[0x90]W[0xfd][0x80][0xd0][0x13][0x93]H[0x1c]'[0xda]Y[0xf1][0xa2]w[0xed][0xf4][0xe5][0xec][0xd3]?[0xdf]O_@[0xd5]1[0xd3][0xd7][0xb6]I[0x8a][0x17],[0xe3]JKHS`[0xe5][0xfe]9[0xcd]9([0xa7][0x5][0xb6]7r[0xe][0xcc]i[0xd1]M+[0xa9][0xd5][0xea][0xba][0xb5][0x8b][0xef]&5[0xdf][0x6][0xe7]lX[0xaa][0xe6][0x8f][0xc6][0x92][0x11][0xd7][0xe8]<1J[0xae]Kz[0xd1][0xce][0x9e][0xfa][\r][0x1a][0x1b][0xa8]^D[0xf6][0x81]L[0xf9];[0xfa]j[0xb7]N[0x8][0x8f]05[0xdc][0xd1]M[0x9b][0xef][\r][0xfb][0xb6][0xce]6[0xb4][0xce][0xce][0x81][0xad]s[0x8e]+[0x0]Xd[0xef] [0xa0][0xf2]LC@UoB[0x1f][0xde][0xc8][0xb7]e[0xad][0x9e]?[0x1e][0x1] [0xae][0xd1]yb[0x2][0xa0]V[0xf7]n[0xdf][0xaa]&LK[\n]"
+2021-06-17 21:34:43,767 [main] DEBUG org.apache.http.wire -  << "[0xd1][0xbf]0[0x1f]K[0xd0][0xcb][0x1c][0xac]OSjb[0x84][0xce][0xa9]Z[0xa0]W\W[0x9f]V&BiD[0xa2]0[0xc2][0x10]Y[0x1b][0xfd]*dr[0x86]^[0xc3][0xfb][0x8e]Hs[0xf4][0x4]M[0x98][0x8c]Kx[0xf]z[0xc7][0x16]<N[0x1][0x9c]}J\[0xd0][0x6][0x7][0xd2]7[0x9c][0x6][0xdb][0xe9][0xf9][0xdf][0xf9]B[0xf4][0xab][0x14][0x19][0x12][0xa5]D[0xec]sAsx[0xd9]B"[0xaf]@[0xa2]J[0x9][0xa9]3[0x96][0xeb]AU[0xe0][0xda][0x19]+{[0xcc]|[0xf3]-h[0xb3][0x81][0x9b]f[0x3][0x3][0xa4]rZ`[0x9e][0xa3][0xab]R[0xce][0x84]q[0x83][0xb8][0xbe]6[0xd5][0xfd][0x9a][0x82]([0xde]r[0x14],[0x5][0x82][0x98][0xec]j[0xc9]3$[0xc1][0xea][0x1][0x82]@J[0xa4][0xca][0xa2][0x0][0x8b][0xd0][0xc][0x12][0xcf][0x92][0xe9][0x87]dW[0xce]oQ[0x1d]E[0x18][0xfa][0xa8][0xfd][0xa8][0xce][0xcc][0xb3][0xb8][0xfa][0xc6][0x85][0xdb][0xd6][0xe0][0x4][0xc2][0x86][0x97]\c[0x8][0x1b]6[0xfb][0xc6][0xdb]}[0x9b][0xa1][0x4][0xa7][0xf5][0xb6]qVo[0x19]o[0xb6][0xbc])[0xab][0x15] [0xb7]e[0x15][0xe]C[0xcf][0xf6]|[0xc8]~[0xcd]A[0xa8][0xe6][0x8f]w[0x10]@\[0xa3][0xf3][0x93][0x8c]Oq[0x10]>~[0xfd][0xf][0xed]Q[0x97][0x1e][[0x17][0x0][0x0]"
+2021-06-17 21:34:43,767 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2021-06-17 21:34:43,772 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2021-06-17 21:34:43,772 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2021-06-17 21:34:43,802 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-06-17 21:34:43,852 [main] INFO ecommerce.testing.teststeps.HttpMethods - Response captured for Http method GetRequest:io.restassured.internal.RestAssuredResponseImpl@48a12036
+2021-06-17 21:34:43,967 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@57459491
+2021-06-17 21:34:43,967 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 5000 MILLISECONDS
+2021-06-17 21:34:45,927 [main] DEBUG ecommerce.testing.testcases.TC_1_GetProduct - Response captured for get request as Pretty string method:{
+    "total": 51957,
+    "limit": 10,
+    "skip": 0,
+    "data": [
+        {
+            "id": 43900,
+            "name": "Duracell - AAA Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333424019",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; AAA size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN2400B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aaa-batteries-4-pack/43900.p?id=1051384074145&skuId=43900&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4390/43900_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 48530,
+            "name": "Duracell - AA 1.5V CopperTop Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 5.49,
+            "upc": "041333415017",
+            "shipping": 0,
+            "description": "Long-lasting energy; DURALOCK Power Preserve technology; for toys, clocks, radios, games, remotes, PDAs and more",
+            "manufacturer": "Duracell",
+            "model": "MN1500B4Z",
+            "url": "http://www.bestbuy.com/site/duracell-aa-1-5v-coppertop-batteries-4-pack/48530.p?id=1099385268988&skuId=48530&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/4853/48530_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 127687,
+            "name": "Duracell - AA Batteries (8-Pack)",
+            "type": "HardGood",
+            "price": 7.49,
+            "upc": "041333825014",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; AA size; DURALOCK Power Preserve technology; 8-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1500B8Z",
+            "url": "http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 150115,
+            "name": "Energizer - MAX Batteries AA (4-Pack)",
+            "type": "HardGood",
+            "price": 4.99,
+            "upc": "039800011329",
+            "shipping": 0,
+            "description": "4-pack AA alkaline batteries; battery tester included",
+            "manufacturer": "Energizer",
+            "model": "E91BP-4",
+            "url": "http://www.bestbuy.com/site/energizer-max-batteries-aa-4-pack/150115.p?id=1051384046217&skuId=150115&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1501/150115_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 185230,
+            "name": "Duracell - C Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 8.99,
+            "upc": "041333440019",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; C size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1400R4Z",
+            "url": "http://www.bestbuy.com/site/duracell-c-batteries-4-pack/185230.p?id=1051384046486&skuId=185230&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1852/185230_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 185267,
+            "name": "Duracell - D Batteries (4-Pack)",
+            "type": "HardGood",
+            "price": 9.99,
+            "upc": "041333430010",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; D size; DURALOCK Power Preserve technology; 4-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1300R4Z",
+            "url": "http://www.bestbuy.com/site/duracell-d-batteries-4-pack/185267.p?id=1051384046551&skuId=185267&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/1852/185267_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 309062,
+            "name": "Pioneer - 4\" 3-Way Surface-Mount Speakers with IMPP Composite Cones (Pair) - Black",
+            "type": "HardGood",
+            "price": 144.99,
+            "upc": "012562165141",
+            "shipping": 0,
+            "description": "80W maximum power (20W RMS); 4\" IMPP composite cone woofer; 3/4\" horn tweeter",
+            "manufacturer": "Pioneer",
+            "model": "TS-X200",
+            "url": "http://www.bestbuy.com/site/pioneer-4-3-way-surface-mount-speakers-with-impp-composite-cones-pair-black/309062.p?id=1218643240258&skuId=309062&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/0309/0309062_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 312290,
+            "name": "Duracell - 9V Batteries (2-Pack)",
+            "type": "HardGood",
+            "price": 7.99,
+            "upc": "041333216010",
+            "shipping": 0,
+            "description": "Compatible with select electronic devices; alkaline chemistry; 9V size; DURALOCK Power Preserve technology; 2-pack",
+            "manufacturer": "Duracell",
+            "model": "MN1604B2Z",
+            "url": "http://www.bestbuy.com/site/duracell-9v-batteries-2-pack/312290.p?id=1051384050321&skuId=312290&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3122/312290_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 333179,
+            "name": "Energizer - N Cell E90 Batteries (2-Pack)",
+            "type": "HardGood",
+            "price": 5.99,
+            "upc": "039800013200",
+            "shipping": 0,
+            "description": "Alkaline batteries; 1.5V",
+            "manufacturer": "Energizer",
+            "model": "E90BP-2",
+            "url": "http://www.bestbuy.com/site/energizer-n-cell-e90-batteries-2-pack/333179.p?id=1185268509951&skuId=333179&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3331/333179_sa.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        },
+        {
+            "id": 346575,
+            "name": "Metra - Radio Installation Dash Kit for Most 1989-2000 Ford, Lincoln & Mercury Vehicles - Black",
+            "type": "HardGood",
+            "price": 16.99,
+            "upc": "086429002757",
+            "shipping": 0,
+            "description": "From our expanded online assortment; compatible with most 1989-2000 Ford, Lincoln and Mercury vehicles; snap-in TurboKit offers fast installation; spacer/trim ring; rear support bracket",
+            "manufacturer": "Metra",
+            "model": "99-5512",
+            "url": "http://www.bestbuy.com/site/metra-radio-installation-dash-kit-for-most-1989-2000-ford-lincoln-mercury-vehicles-black/346575.p?id=1218118704590&skuId=346575&cmp=RMXCC",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/3465/346575_rc.jpg",
+            "createdAt": "2016-11-17T17:58:03.298Z",
+            "updatedAt": "2016-11-17T17:58:03.298Z",
+            "categories": [
+                
+            ]
+        }
+    ]
+}
+2021-06-17 21:34:46,046 [main] DEBUG ecommerce.testing.testcases.TC_1_GetProduct - capturing response
+2021-06-17 21:34:46,066 [main] DEBUG ecommerce.testing.testResponseValiadation.ResponseValidations - ..............Getting response.............
+2021-06-17 21:34:46,096 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting status code: 200
+2021-06-17 21:34:46,096 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting status line in response: HTTP/1.1 200 OK
+2021-06-17 21:34:46,096 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Getting response body: io.restassured.internal.RestAssuredResponseImpl@48a12036
+2021-06-17 21:34:46,096 [main] INFO ecommerce.testing.testResponseValiadation.ResponseValidations - Response header :[X-Powered-By=Express, Access-Control-Allow-Origin=*, Allow=GET,POST,PUT,PATCH,DELETE, Vary=Accept, Accept-Encoding, Content-Type=application/json; charset=utf-8, ETag=W/"175b-ahK67GuMia7YzxPW6JneHQxymiA", Content-Encoding=gzip, Date=Thu, 17 Jun 2021 16:04:43 GMT, Connection=keep-alive, Keep-Alive=timeout=5, Transfer-Encoding=chunked]

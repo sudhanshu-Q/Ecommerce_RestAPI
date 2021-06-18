@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3748" started-at="2021-06-17T15:03:38Z" finished-at="2021-06-17T15:03:42Z">
+  <suite name="Default suite" duration-ms="44964" started-at="2021-06-17T16:04:01Z" finished-at="2021-06-17T16:04:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3748" started-at="2021-06-17T15:03:38Z" finished-at="2021-06-17T15:03:42Z">
+    <test name="Default test" duration-ms="44964" started-at="2021-06-17T16:04:01Z" finished-at="2021-06-17T16:04:46Z">
       <class name="ecommerce.testing.testcases.TC_1_GetProduct">
-        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@2c9f9fb0]" name="initiating_TC_1_GetProduct" duration-ms="3723" started-at="2021-06-17T20:33:38Z" finished-at="2021-06-17T20:33:42Z">
+        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@2c9f9fb0]" name="initiating_TC_1_GetProduct" duration-ms="44939" started-at="2021-06-17T21:34:01Z" finished-at="2021-06-17T21:34:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiating_TC_1_GetProduct -->
