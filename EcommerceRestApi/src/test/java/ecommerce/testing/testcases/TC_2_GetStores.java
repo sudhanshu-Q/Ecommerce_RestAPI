@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import ecommerce.testing.testResponseValiadation.ResponseValidations;
@@ -21,10 +22,11 @@ import io.restassured.response.Response;
 public class TC_2_GetStores {
 
 	final static Logger log=Logger.getLogger(TC_1_GetProduct.class);
-	
+
 	@Test
 	public void initiating_TC_2_GetStore() throws IOException
 	{
+		Reporter.log("Starting TC_2_GetStores");
 		Properties porpertiesRead=PropertiesFileLoad.propertyFileLoad("./EnvironmentConfigurations/Env.properties");
 		log.debug("Reading propery file :"+porpertiesRead.getProperty("GetStore"));
 		HttpMethods httpMethod=new HttpMethods(porpertiesRead);
@@ -34,6 +36,7 @@ public class TC_2_GetStores {
 		ResponseValidations validateResponseGet=new ResponseValidations();
 		log.debug("capturing response");
 		validateResponseGet.responseValidations(responseGet);
+		Reporter.log("Executed TC_2_GetStores successfully");
 	}
 
 }
