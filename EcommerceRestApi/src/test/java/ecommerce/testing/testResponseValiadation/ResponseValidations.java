@@ -30,13 +30,7 @@ public class ResponseValidations {
 		{
 			log.info("key :"+allheader.getName()+" | " +"value: "+allheader.getValue());
 		}
-		//		String xpoweredResponseHeader=header.get("x-powered-by").getValue();
-		//		if (xpoweredResponseHeader.equals("Expressk")) {
-		//		log.info(xpoweredResponseHeader.equals("Express")+" : "+xpoweredResponseHeader+" : Verifying | x-powered-by | Response header");
-		//		}
-		//		else {
-		//			log.error("Not verified : "+xpoweredResponseHeader);
-		//		}
+		
 		/**
 		 * {
   "access-control-allow-origin": "*",
