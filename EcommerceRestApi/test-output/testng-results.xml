@@ -14,12 +14,12 @@
       <![CDATA[Executed TC_1_GetProduct successfully]]>
     </line>
   </reporter-output>
-  <suite name="Ecommerce Best Buy " duration-ms="7549" started-at="2021-06-18T15:42:44Z" finished-at="2021-06-18T15:42:51Z">
+  <suite name="Ecommerce Best Buy " duration-ms="65061" started-at="2021-06-20T09:22:01Z" finished-at="2021-06-20T09:23:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7549" started-at="2021-06-18T15:42:44Z" finished-at="2021-06-18T15:42:51Z">
+    <test name="Test" duration-ms="65061" started-at="2021-06-20T09:22:01Z" finished-at="2021-06-20T09:23:06Z">
       <class name="ecommerce.testing.testcases.TC_1_GetProduct">
-        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@737996a0]" name="initiating_TC_1_GetProduct" duration-ms="2996" started-at="2021-06-18T21:12:48Z" finished-at="2021-06-18T21:12:51Z">
+        <test-method status="PASS" signature="initiating_TC_1_GetProduct()[pri:0, instance:ecommerce.testing.testcases.TC_1_GetProduct@737996a0]" name="initiating_TC_1_GetProduct" duration-ms="32947" started-at="2021-06-20T14:52:33Z" finished-at="2021-06-20T14:53:06Z">
           <reporter-output>
             <line>
               <![CDATA[Starting TC_1_GetProduct]]>
@@ -31,7 +31,7 @@
         </test-method> <!-- initiating_TC_1_GetProduct -->
       </class> <!-- ecommerce.testing.testcases.TC_1_GetProduct -->
       <class name="ecommerce.testing.testcases.TC_2_GetStores">
-        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2096442d]" name="initiating_TC_2_GetStore" duration-ms="4528" started-at="2021-06-18T21:12:44Z" finished-at="2021-06-18T21:12:48Z">
+        <test-method status="PASS" signature="initiating_TC_2_GetStore()[pri:0, instance:ecommerce.testing.testcases.TC_2_GetStores@2096442d]" name="initiating_TC_2_GetStore" duration-ms="31911" started-at="2021-06-20T14:52:01Z" finished-at="2021-06-20T14:52:33Z">
           <reporter-output>
             <line>
               <![CDATA[Starting TC_2_GetStores]]>
