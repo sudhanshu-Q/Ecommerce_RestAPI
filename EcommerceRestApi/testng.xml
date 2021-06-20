@@ -3,8 +3,9 @@
 <suite name="Ecommerce Best Buy ">
 	<test name="Test">
 		<classes>
-			<class name="ecommerce.testing.testcases.TC_2_GetStores" />
-			<class name="ecommerce.testing.testcases.TC_1_GetProduct" />
+			 <class name="ecommerce.testing.testcases.TC_2_GetStores" />
+			 <class name="ecommerce.testing.testcases.TC_1_GetProduct" /> 
+			 <class name="ecommerce.testing.testcases.TC_3_GetServices" /> 
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
