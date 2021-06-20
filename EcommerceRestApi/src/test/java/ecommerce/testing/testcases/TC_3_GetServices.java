@@ -36,7 +36,7 @@ public class TC_3_GetServices {
 		ResponseValidations validateResponseGet=new ResponseValidations();
 		log.debug("capturing response");
 		validateResponseGet.responseValidations(responseGet);
-		Reporter.log("Executed TC_3_GetServices successfully");
+		Reporter.log("Executed TC_3_GetServices successfully....");
 	}
 
 }
