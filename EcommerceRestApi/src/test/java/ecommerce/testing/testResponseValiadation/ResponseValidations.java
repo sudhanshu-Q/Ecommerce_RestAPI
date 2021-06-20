@@ -30,19 +30,6 @@ public class ResponseValidations {
 		{
 			log.info("key :"+allheader.getName()+" | " +"value: "+allheader.getValue());
 		}
-		
-		/**
-		 * {
-  "access-control-allow-origin": "*",
-  "allow": "GET,POST,PUT,PATCH,DELETE",
-  "content-encoding": "gzip",
-  "content-type": "application/json; charset=utf-8",
-  "date": "Fri, 18 Jun 2021 03:51:20 GMT",
-  "etag": "W/\"175b-ahK67GuMia7YzxPW6JneHQxymiA\"",
-  "vary": "Accept",
-  "x-powered-by": "Express"
-}
-		 **/
 	}
 
 }
